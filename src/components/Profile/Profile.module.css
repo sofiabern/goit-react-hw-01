@@ -1,0 +1,67 @@
+.card-wrapper{
+    border: 2px solid #2d2d2d;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.main-info-wrapper{
+    background-color: #f9f9f9;
+    padding-top: 12px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 16px;
+
+}
+
+.user-img{
+    border-radius: 50%;
+    background-color: #2d2d2d;
+    width: 150px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.user-name{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.user-tag{
+    color: #727171;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.user-location{
+    color: #727171;
+    font-size: 18px;
+}
+
+.stats-info{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    width: calc(100%/3);
+    color: #000000;
+    background-color: #cacaca;
+    border-top: 2px solid #727171;
+}
+
+.stats-info-item:not(:last-of-type){
+    border-right: 2px solid #727171;
+}
+
+.stats-num{
+    font-weight: 700;
+}
